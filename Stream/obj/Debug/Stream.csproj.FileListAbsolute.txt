@@ -1,1 +1,9 @@
 D:\ahmed data\projects\Stream\Stream\bin\Debug\Stream.exe.config
+D:\ahmed data\projects\Stream\Stream\obj\Debug\Stream.csprojResolveAssemblyReference.cache
+D:\ahmed data\projects\Stream\Stream\obj\Debug\Stream.Properties.Resources.resources
+D:\ahmed data\projects\Stream\Stream\obj\Debug\Stream.School.PL.Main.frm_Main.resources
+D:\ahmed data\projects\Stream\Stream\obj\Debug\Stream.csproj.GenerateResource.Cache
+D:\ahmed data\projects\Stream\Stream\bin\Debug\Stream.exe
+D:\ahmed data\projects\Stream\Stream\bin\Debug\Stream.pdb
+D:\ahmed data\projects\Stream\Stream\obj\Debug\Stream.exe
+D:\ahmed data\projects\Stream\Stream\obj\Debug\Stream.pdb

@@ -46,17 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PL\frm_Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PL\frm_Main.Designer.cs">
-      <DependentUpon>frm_Main.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PL\frm_Main.resx">
+    <Compile Include="School\PL\Main\frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="School\PL\Main\frm_Main.Designer.cs">
       <DependentUpon>frm_Main.cs</DependentUpon>
-    </EmbeddedResource>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -65,7 +62,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="School\PL\Main\frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,8 +81,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BL\" />
     <Folder Include="DAL\" />
+    <Folder Include="School\BL\" />
+    <Folder Include="School\Images\" />
+    <Folder Include="School\PL\Stu_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini1_32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

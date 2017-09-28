@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Stream.PL
+namespace Stream.School.PL.Main
 {
     public partial class frm_Main : Form
     {
