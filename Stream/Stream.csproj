@@ -54,6 +54,12 @@
     <Compile Include="School\PL\Main\frm_Main.Designer.cs">
       <DependentUpon>frm_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="School\PL\Stu_Data\frm_Stu_Data_Current.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="School\PL\Stu_Data\frm_Stu_Data_Current.Designer.cs">
+      <DependentUpon>frm_Stu_Data_Current.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -66,6 +72,9 @@
     </Compile>
     <EmbeddedResource Include="School\PL\Main\frm_Main.resx">
       <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="School\PL\Stu_Data\frm_Stu_Data_Current.resx">
+      <DependentUpon>frm_Stu_Data_Current.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,7 +93,6 @@
     <Folder Include="DAL\" />
     <Folder Include="School\BL\" />
     <Folder Include="School\Images\" />
-    <Folder Include="School\PL\Stu_Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\close1_32.png" />
