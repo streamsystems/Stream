@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -99,6 +100,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mini1_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
